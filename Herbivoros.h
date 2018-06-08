@@ -1,5 +1,6 @@
 #ifndef HERBIVOROS_H
 #define HERBIVOROS_H
+#include "Dinosaurios.h"
 #include <string>
 #include "Dinosaurios.h"
 
