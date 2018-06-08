@@ -18,7 +18,6 @@ class Carnivoros : public Dinosaurios{
             void setTipoCarnivoro(string);
             string getOrganoDepredador();
             void setOrganoDepredador(string);
-
-
+            
 };
 #endif
