@@ -18,6 +18,6 @@ class Triceratops:public Herbivoros{
             //setters
             void setLongiCuernos(double);
             void setLongiCuernosNasal(double);
-}
+};
 
 #endif
