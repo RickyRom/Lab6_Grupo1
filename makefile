@@ -1,5 +1,5 @@
-main:	main.cpp Dinosaurios.o Carnivoros.o Herviboros.o Triceratops.o Spinosaurus.o TyrannosaurusRex.o Aereos.o Marinos.o Omnivoros.o Oviraptor.o
-main.o:	main.cpp Dinosaurios.h Carnivoros.h Herviboros.h Triceratops.h Spinosaurus.h TyrannosaurusRex.h Aereos.h Marinos.h Omnivoros.h Oviraptor.h
+JoyaPequena:	JoyaPequena.cpp Dinosaurios.o Carnivoros.o Herviboros.o Triceratops.o Spinosaurus.o TyrannosaurusRex.o Aereos.o Marinos.o Omnivoros.o Oviraptor.o
+JoyaPequena.o:	JoyaPequena.cpp Dinosaurios.h Carnivoros.h Herviboros.h Triceratops.h Spinosaurus.h TyrannosaurusRex.h Aereos.h Marinos.h Omnivoros.h Oviraptor.h
 	g++ -c main.cpp
 Dinosaurios.o:	Dinosaurios.h Dinosaurios.cpp
 	g++ -c Dinosaurios.cpp
@@ -24,4 +24,4 @@ Oviraptor.o:	Oviraptor.h Oviraptor.cpp
 Cuidadores.o:	Cuidadores.h Cuidadores.cpp
 	g++ Cuidadores.cpp
 clean:
-	rm *.o main
+	rm*.o
