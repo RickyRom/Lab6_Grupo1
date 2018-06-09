@@ -1,6 +1,7 @@
 #include "Herbivoros.h"
+#include "Dinosaurios.h"
 
-Herbivoros::Herbivoros(string pFruFol, int pNumeroIncisivo) {
+Herbivoros::Herbivoros(string pFruFol, int pNumeroIncisivo):  Dinosaurios(pNombre,pAltura,pPeso,pLongitud,pSexo) {
     FruFoli = pFruFol;
     numeroIncisivos = pNumeroIncisivo;
 }

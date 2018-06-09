@@ -10,6 +10,7 @@
 #include "Triceratops.h"
 #include "Omnivoros.h"
 #include <string>
+#include <vector>
 
 using std::cout;
 using std::endl;
@@ -19,6 +20,8 @@ using std::string;
 int main() {
     int opcion;
 	do{
+    Dinosaurios* dino;
+    vector<Dinosaurios> dinos;
 		cout<<"Bienvenido a Joya Pequeña"<<endl;
 		cout<<"1.- Agregar Dinosaurios"<<endl;
 		cout<<"2.- Eliminar"<<endl;
@@ -41,10 +44,47 @@ int main() {
                 cout<<"Ingrese el peso: "<<endl;
                 cin>>Peso;
                 cout<<"Ingrese la Longitud: "<<endl;
+                cin>>Longitud;
                 cout<<"Ingrese el Sexo: "<<endl;
                 cin>>Sexo;
 
-                
+                dino = new Dinosaurios(nombre,fecha,Altura,Peso,Longitud,Sexo);
+                dinos.push_back(*dino);
+
+                int opn;
+                do {
+                    cout<<"TIPOS DE DINOSAURIOS"<<endl;
+		            cout<<"1.- Carnivoros"<<endl;
+		            cout<<"2.- Herbivoros"<<endl;
+		            cout<<"3.- Omnivoros"<<endl;
+                    cout<<"4.- Aereos"<<endl;
+                    cout<<"5.- Marinos"<<endl;
+                    cout<<"6.- Salir"<<endl;
+                    cin>>opn;
+                    
+                    switch (opn)
+                    {
+                        case 1:
+                            
+                            break;
+                    
+                        case 2:
+
+                            break;
+                        case 3:
+
+                            break;
+                        case 4:
+
+                            break;
+                        case 5:
+
+                            break;
+                        case 6:
+                            break;        
+                    }
+                    
+                }while(opn != 6);                
                 
 				break;
             }

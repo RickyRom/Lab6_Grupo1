@@ -2,6 +2,15 @@
 #include <string>
 using namespace std;
 
+Dinosaurios::Dinosaurios(string pNombre,string pFecha,double pAltura,double pPeso,double pLongitud,char pSexo) {
+    Nombre = pNombre;
+    Fecha = pFecha;
+    Altura = pAltura;
+    Peso = pPeso;
+    Longitud = pLongitud;
+    Sexo = pSexo;
+}
+
 //Metodos Getter
 string Dinosaurios::getNombre(){
     return Nombre;
@@ -24,22 +33,22 @@ char Dinosaurios::getSexo(){
 
 //Metodos Setter
 void Dinosaurios::setNombre(string pNombre){
-    this->Nombre = pNombre;
+    Nombre = pNombre;
 }
 void Dinosaurios::setAltura(double pAltura){
-    this->Altura=pAltura;
+    Altura=pAltura;
 }
 void Dinosaurios::setPeso(double pPeso){
-    this->Peso=pPeso;
+    Peso=pPeso;
 }
 void Dinosaurios::setLongitud(double pLongitud){
-    this-> Longitud=pLongitud;
+    Longitud=pLongitud;
 }
 void Dinosaurios::setFecha(string pFecha){
-    this->Fecha=pFecha;
+    Fecha=pFecha;
 }
 void Dinosaurios::setSexo(char pSexo){
-    this->Sexo=pSexo;
+    Sexo=pSexo;
 }
 
 

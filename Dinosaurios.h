@@ -6,7 +6,7 @@ using namespace std;
 
 class Dinosaurios{
 
-  private:
+  protected:
     string Nombre, Fecha;
     double Altura, Peso, Longitud;
     char Sexo;
@@ -14,7 +14,7 @@ class Dinosaurios{
   public:
     //contructor
     Dinosaurios();
-    Dinosaurios(string, double, double, double, int, char);
+    Dinosaurios(string,string,double, double, double, char);
 
     //metodos set y get
     //metodo string para el nombre
