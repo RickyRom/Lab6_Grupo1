@@ -64,7 +64,15 @@ int main() {
                     
                     switch (opn)
                     {
-                        case 1:
+                        case 1:{
+                            string TipoCarnivoro, OrganoDepredador;
+                            cout<<"Ingrese el tipo de carnivoro(Cazador o Carroñero): "<<endl;
+                            cin>> TipoCarnivoro;
+                            cout<<"Ingrese el tipo de Organo(Dientes o Garras): "<<endl;
+                            cin>>OrganoDepredador;
+
+                            
+                        }
                             
                             break;
                     
