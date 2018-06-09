@@ -2,7 +2,6 @@
 #define HERBIVOROS_H
 #include "Dinosaurios.h"
 #include <string>
-#include "Dinosaurios.h"
 
 class Herbivoros:public Dinosaurios {
     private:
@@ -11,7 +10,7 @@ class Herbivoros:public Dinosaurios {
 
     public:
             Herbivoros();
-            Herbivoros(string, int);
+            Herbivoros(string, int,string,string,double, double, double, char);
 
             //getters
             string getFruFoli();

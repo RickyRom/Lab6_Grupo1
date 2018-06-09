@@ -9,7 +9,7 @@ class Triceratops:public Herbivoros{
 
     public:
             Triceratops();
-            Triceratops(double,double);
+            Triceratops(double,double,string, int,string,string,double, double, double, char);
 
             //getters
             double getLongiCuernos();

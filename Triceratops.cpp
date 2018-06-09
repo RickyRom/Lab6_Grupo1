@@ -1,6 +1,11 @@
 #include "Triceratops.h"
+#include "Herbivoros.h"
+#include "Dinosaurios.h"
 
-Triceratops::Triceratops(double plongiCuernos, double plongiCuernoNasal) {
+
+Triceratops::Triceratops(double plongiCuernos, double plongiCuernoNasal,string pFruFol, int pNumeroIncisivo, string pNombre,string pFecha,double pAltura,
+double pPeso,double pLongitud,char pSexo):Herbivoros(pFruFol,  pNumeroIncisivo, pNombre,pFecha, pAltura,
+ pPeso, pLongitud, pSexo) {
     longiCuernos = plongiCuernos;
     longiCuernoNasal = plongiCuernoNasal;
 }
