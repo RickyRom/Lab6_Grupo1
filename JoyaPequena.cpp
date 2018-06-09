@@ -12,10 +12,12 @@
 #include <string>
 #include <vector>
 
-using std::cout;
+/*using std::cout;
 using std::endl;
 using std::cin;
-using std::string; 
+using std::string;*/
+
+using namespace std; 
 
 int main() {
     int opcion;
@@ -71,7 +73,7 @@ int main() {
                             cout<<"Ingrese el tipo de Organo(Dientes o Garras): "<<endl;
                             cin>>OrganoDepredador;
 
-                            
+
                         }
                             
                             break;

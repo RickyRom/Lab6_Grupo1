@@ -1,6 +1,7 @@
 #ifndef TYRANNOSAURUSREX_H
 #define TYRANNOSAURUSREX_H
 #include "Carnivoros.h"
+#include "Dinosaurios.h"
 
 class Tyrannosaurusrex : public Carnivoros{
         private:

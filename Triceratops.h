@@ -1,7 +1,8 @@
 #ifndef TRICERATOPS_H
 #define TRICERATOPS_H
 #include "Herbivoros.h"
-
+#include "Dinosaurios.h"
+ 
 class Triceratops:public Herbivoros{
     private:
             double longiCuernos;

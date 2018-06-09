@@ -2,6 +2,7 @@
 #define OVIRAPTOR_H
 #include <string>
 #include "Omnivoros.h"
+#include "Dinosaurios.h"
 
 class Oviraptor:public Omnivoros{
     private:

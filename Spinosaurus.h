@@ -1,6 +1,7 @@
 #ifndef SPINOSAURUS_H
 #define SPINOSAURUS_H
 #include "Carnivoros.h"
+#include "Dinosaurios.h"
 
 class Spinosaurus : public Carnivoros{
         private:
